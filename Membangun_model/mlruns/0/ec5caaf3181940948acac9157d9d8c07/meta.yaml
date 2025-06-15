@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ec5caaf3181940948acac9157d9d8c07/artifacts
+end_time: 1749824393780
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec5caaf3181940948acac9157d9d8c07
+run_name: worried-swan-690
+run_uuid: ec5caaf3181940948acac9157d9d8c07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749824191310
+status: 3
+tags: []
+user_id: GL65 RTX2070
