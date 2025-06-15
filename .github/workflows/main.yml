@@ -27,10 +27,8 @@ jobs:
         pip install mlflow scikit-learn pandas
 
     - name: Run MLflow Project
-      run: |
-        mlflow run . --env-manager=local
-        working-directory: Membangun_model
+      run: mlflow run . --env-manager=local
+      working-directory: Membangun_model
 
     - name: Get latest MLflow run ID
-      run: |
-        echo "MLflow run finished ✅"
+      run: echo "MLflow run finished ✅"
