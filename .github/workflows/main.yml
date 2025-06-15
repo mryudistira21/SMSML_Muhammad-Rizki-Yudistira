@@ -23,7 +23,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install -r Membangun_model/requirements.txt
         pip install mlflow scikit-learn pandas
 
     - name: Run MLflow Project
