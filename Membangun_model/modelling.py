@@ -1,5 +1,6 @@
 import pandas as pd
 import mlflow
+import os
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
@@ -8,12 +9,12 @@ from sklearn.metrics import accuracy_score
 mlflow.sklearn.autolog()
 
 # Load dataset dari folder preprocessing
-base_path = r"..\\Eksperimen_SML_Muhammad_Rizki_Yudistira\\preprocessing\\dataset_preprocessed"
+base_path = os.path.join(os.path.dirname(__file__), "dataset_preprocessing")
 
-X_train = pd.read_csv(f"{base_path}/X_train.csv")
-X_test = pd.read_csv(f"{base_path}/X_test.csv")
-y_train = pd.read_csv(f"{base_path}/y_train.csv")
-y_test = pd.read_csv(f"{base_path}/y_test.csv")
+X_train = pd.read_csv(os.path.join(base_path, "X_train.csv"))
+X_test = pd.read_csv(os.path.join(base_path, "X_test.csv"))
+y_train = pd.read_csv(os.path.join(base_path, "y_train.csv"))
+y_test = pd.read_csv(os.path.join(base_path, "y_test.csv"))
 
 # Training
 with mlflow.start_run():
