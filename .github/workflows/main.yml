@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: model
-        path: Workflow-CI/MLProject/model.pkl
+        path: Workflow-CI/MLProject/model_rf.pkl
 
     - name: Upload to GitHub - confusion matrix
       uses: actions/upload-artifact@v4
