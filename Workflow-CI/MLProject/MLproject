@@ -2,8 +2,4 @@ name: adult-income-mlproject
 
 entry_points:
   main:
-    parameters:
-      n_estimators: {type: int, default: 100}
-      max_depth: {type: int, default: 10}
-    command: >
-      python modelling.py
+    command: "python modelling.py"
