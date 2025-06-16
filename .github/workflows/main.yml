@@ -23,12 +23,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r Membangun_model/requirements.txt
         pip install mlflow scikit-learn pandas
 
     - name: Run MLflow Project
       run: mlflow run . --env-manager=local
-      working-directory: MLProject
+      working-directory: Workflow-CI/MLProject
 
     - name: Get latest MLflow run ID
       run: echo "MLflow run finished"
