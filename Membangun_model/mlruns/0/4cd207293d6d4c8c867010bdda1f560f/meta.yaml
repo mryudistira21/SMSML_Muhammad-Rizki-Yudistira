@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/4cd207293d6d4c8c867010bdda1f560f/artifacts
+end_time: 1750037933466
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4cd207293d6d4c8c867010bdda1f560f
+run_name: masked-crow-637
+run_uuid: 4cd207293d6d4c8c867010bdda1f560f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750037920716
+status: 4
+tags: []
+user_id: GL65 RTX2070
